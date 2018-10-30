@@ -21,8 +21,8 @@ class linkedList
 public:
     	linkedList()
     	{
-        	head=NULL;
-        	tail=NULL;
+        	head = NULL;
+        	tail = NULL;
 		nodeCount=0;
     	}
     	void insertAtHead(int);
@@ -37,8 +37,8 @@ public:
 	void reverse(node*);
         ~linkedList()
         {
-            node* prev=NULL;
-            node* temp=head;
+            node* prev = NULL;
+            node* temp = head;
             while(temp!=NULL)
                 {
                     //cout<<"Memory is being freed"<<endl;
